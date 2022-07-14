@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+   <!-- Website Title -->
+   <title>Form Validation</title>
+
+   <!-- Meta Tags For Search Engine Optimiztion -->
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="author" content="">
+   <meta name="description" content="">
+   <meta name="keywords" content="">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+   <!-- Font Awesome Link -->
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+   integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+    <!-- CSS Stylesheet Import Link -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body>
+
+   <!-- Website starts-->
+
+
+    <div class="container">
+
+
+   <!-- orange starts-->
+
+        <div class="content">
+            <div class="logo">
+                <img src="img/logo.svg" alt="">
+            </div>
+            <div class="image">
+            </div>
+            <div class="text">
+                Start for free & get<br>attractive offers today !
+            </div>
+
+
+        </div>
+
+
+
+
+
+   <!-- Form sec starts-->
+
+        <form id="form">
+   <!-- social sec starts-->
+           
+            <div class="social">
+                 <div class="title">Get Started</div>
+                <div class="question">Already Have an Account?</div>
+                <span>Sign In</span>
+
+                <div class="btn">
+
+                    <div class="btn1">
+                        <img
+                        src="https://img.icons8.com/color/30/000000/google-logo.png"
+                        />
+                        Sign Up
+                    </div>
+
+                    <div class="btn2">
+                        <img
+                        src="https://img.icons8.com/ios-filled/30/ffffff/facebook-new.png"
+                        />
+                        Sign Up
+
+                    </div>
+
+                </div>
+
+                <div class="or">Or</div>
+            </div>
+
+   <!-- input sec starts-->
+
+
+            <!--
+                /**
+                * ! user name input here
+                **/
+            -->
+            <div>
+                <label for="username">User Name</label>
+                <i class="fas fa-user"></i>
+
+                <input type="text" name="username" id="username" placeholder="Username here">
+
+                <i class="fas fa-exclamation-circle failure-icon"></i>
+                <i class="fas fa-check-circle success-icon"></i>
+
+                <div class="error"></div>
+            </div>
+
+            <!--
+                /**
+                * ! email input here
+                **/
+            -->
+            <div>
+
+                <label for="email">Email</label>
+                <i class="fas fa-envelope"></i>
+                <input type="email" name="email" id="email" placeholder="abc@gmail.com">
+
+                <i class="fas fa-exclamation-circle failure-icon"></i>
+                <i class="fas fa-check-circle success-icon"></i>
+
+                <div class="error"></div>
+            </div>
+
+
+
+            <!--
+                /**
+                * ! password input here
+                **/
+            -->
+
+
+            <div>
+                <label for="password">Password</label>
+                <i class="fas fa-lock"></i>
+                <input type="password" name="password" id="password" placeholder="Password here">
+
+                <i class="fas fa-exclamation-circle failure-icon"></i>
+                <i class="fas fa-check-circle success-icon"></i>
+
+                <div class="error"></div>
+            </div>
+
+            <button type="submit" id="submit">Submit</button>
+
+        </form>
+        
+    </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/script.js"></script>
+
+
+</body>
+</html>
